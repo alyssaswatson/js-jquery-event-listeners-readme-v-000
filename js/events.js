@@ -17,12 +17,12 @@ $(document).ready(function(){
 
   $('input#typing').keydown(function(key) {
     if(key.which === 71) {
-      alert("G was pressed!");
+      return alert("G was pressed!");
     }
     });
 
   $('form').submit(function() {
-       alert("Your form is going to be submitted now.");
+       return alert("Your form is going to be submitted now.");
      });
 
 });
