@@ -6,6 +6,9 @@ function frameIt() {
 function pressIt() {
 }
 function submitIt() {
+  $('form').submit(function() {
+       return alert("Your form is going to be submitted now.");
+     });
 }
 
 $(document).ready(function(){
