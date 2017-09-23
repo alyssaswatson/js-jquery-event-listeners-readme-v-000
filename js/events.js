@@ -20,5 +20,5 @@ $(document).ready(function(){
       alert('G was pressed!')
     }
     });
-    
+
 });
