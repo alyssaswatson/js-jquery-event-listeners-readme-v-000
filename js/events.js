@@ -23,7 +23,6 @@ $(document).ready(function(){
 
   $('form').submit(function() {
        alert("Your form is going to be submitted now.");
-     })
-   }
+     });
 
 });
