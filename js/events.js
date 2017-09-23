@@ -13,8 +13,7 @@ $(document).ready(function(){
    alert('Hey!')
   });
 
-  $('img').addClass("tasty")  
-   });
+  $('img').addClass("tasty");
 
 
 });
