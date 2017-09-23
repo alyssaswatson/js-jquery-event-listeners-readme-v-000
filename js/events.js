@@ -16,7 +16,7 @@ $(document).ready(function(){
   $('img').addClass("tasty");
 
   $('input#typing').keydown(function(key) {
-    if(key.which == 71) {
+    if(key.which === 71) {
       alert("G was pressed!");
     }
     });
