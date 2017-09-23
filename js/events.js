@@ -17,7 +17,7 @@ $(document).ready(function(){
 
   $('input#typing').keydown(function(key) {
     if(key.which == 71) {
-      alert('G was pressed!');
+      alert("G was pressed!");
     }
     });
 
