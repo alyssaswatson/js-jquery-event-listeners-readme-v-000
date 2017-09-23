@@ -4,6 +4,11 @@ function getIt() {
 function frameIt() {
 }
 function pressIt() {
+  $('input#typing').keydown(function(key) {
+    if(key.which === 71) {
+      return alert("G was pressed!");
+    }
+    });
 }
 function submitIt() {
   $('form').submit(function() {
