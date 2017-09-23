@@ -13,7 +13,7 @@ $(document).ready(function(){
    alert('Hey!')
   });
 
-  $('img').on('load', function(){
+  $('img').addClass("tasty")  
    });
 
    
