@@ -16,5 +16,5 @@ $(document).ready(function(){
   $('img').addClass("tasty")  
    });
 
-   
+
 });
